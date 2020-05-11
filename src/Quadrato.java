@@ -1,8 +1,8 @@
 /**
 * @author Bello
-*
-* classe BelloFigura
-* eredita metodi classe <b>BelloQuadrato</b>
+*<p>ver 1<p>
+* classe BelloFigura 2
+* eredita metodi classe <b>Quadrato</b>
 *
 *
 */
@@ -53,7 +53,7 @@ return "lato"+lato;
 */
 //main
 public static void main(String[] args) {
-Quadrato bq=new Quadrato(2);
+Quadrato bq=new Quadrato(4);
 System.out.println(bq.Area());
 System.out.println(bq.Perimetro());
 System.out.println(bq);

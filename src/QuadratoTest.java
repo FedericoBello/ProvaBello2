@@ -11,8 +11,8 @@ class QuadratoTest {
 
 	@Test
 	void test() {
-		Quadrato a=new Quadrato(1);
-		float risAtteso=1;
+		Quadrato a=new Quadrato(4);
+		float risAtteso=16;
 		float risOttenuto= a.Area();
 		assertEquals(risAtteso,risOttenuto);
 	}
